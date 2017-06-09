@@ -4,7 +4,7 @@ import png
 
 # filepath = sys.argv[1]
 
-filepath = r'D:\captcha\ref\png-to-mask'
+filepath = r'D:\captcha'
 
 list_of_files = {}
 
