@@ -4,10 +4,10 @@ import png
 
 # filepath = sys.argv[1]
 
-filepath = r'D:\captcha'
+filepath = r'./img'
 
 list_of_files = {}
-
+print os.path.abspath(filepath)
 if os.path.isdir(filepath):
     for (dirpath, dirnames, filenames) in os.walk(filepath):
         for filename in filenames:
